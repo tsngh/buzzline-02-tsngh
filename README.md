@@ -1,4 +1,4 @@
-# buzzline-02-case
+# buzzline-02-tsngh
 
 Streaming data is often too big for any one machine. 
 A streaming platform helps organize our pipelines.
@@ -55,13 +55,13 @@ Use the commands below to activate .venv, and start the producer.
 Windows:
 ```shell
 .venv\Scripts\activate
-py -m producers.kafka_producer_case
+py -m producers.kafka_producer_tsngh
 ```
 
 Mac/Linux:
 ```zsh
 source .venv/bin/activate
-python3 -m producers.kafka_producer_case
+python3 -m producers.kafka_producer_tsngh
 ```
 
 ## Task 5. Start a Kafka Consumer
@@ -74,13 +74,13 @@ Use the commands below to activate .venv, and start the consumer.
 Windows:
 ```shell
 .venv\Scripts\activate
-py -m consumers.kafka_consumer_case
+py -m consumers.kafka_consumer_tsngh
 ```
 
 Mac/Linux:
 ```zsh
 source .venv/bin/activate
-python3 -m consumers.kafka_consumer_case
+python3 -m consumers.kafka_consumer_tsngh
 ```
 
 ## Later Work Sessions
